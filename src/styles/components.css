@@ -1,0 +1,11 @@
+.glass {
+    @apply bg-black/10 backdrop-blur-xl border-b border-white/5;
+}
+
+.nav-link {
+    @apply text-sm uppercase tracking-[0.4em] font-semibold opacity-40 transition-opacity hover:opacity-100 no-underline text-white;
+}
+
+.text-balance {
+    text-wrap: balance;
+}
