@@ -19,7 +19,7 @@ export const PaletteGallery: React.FC<Props> = ({
     setCurrentPalette
 }) => {
     return (
-        <section id="gallery" className="py-24 md:py-32 px-6 md:px-24 bg-background border-t border-foreground/5">
+        <section id="palette-gallery" className="py-24 md:py-32 px-6 md:px-24 bg-background border-t border-foreground/5">
             {/* 標題區域 */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8">
                 <div>

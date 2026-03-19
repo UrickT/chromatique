@@ -26,9 +26,9 @@ export const Navbar: React.FC<Props> = ({ translations: t, language, onToggleLan
             {/* 右側：選單與按鈕 */}
             <div className="flex items-center gap-12">
                 <div className="hidden md:flex gap-10">
-                    <a href="#daily" className="nav-link">{t.navDaily}</a>
-                    <a href="#create" className="nav-link">{t.navCreate}</a>
-                    <a href="#gallery" className="nav-link">{t.navGallery}</a>
+                    <a href="#daily-color" className="nav-link">{t.navDaily}</a>
+                    <a href="#palette-composer" className="nav-link">{t.navCreate}</a>
+                    <a href="#palette-gallery" className="nav-link">{t.navGallery}</a>
                 </div>
 
                 <button
